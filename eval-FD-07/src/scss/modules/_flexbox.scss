@@ -1,0 +1,44 @@
+.flexbox {
+  .cube {
+    display: flex;
+    width: 82px;
+    height: 72px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0d47a1;
+    background: #42a5f5;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .flexbox-1 {
+    display: flex;
+    justify-content: center;
+  }
+  .flexbox-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .flexbox-3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flexbox-3 .cube {
+    display: flex;
+    width: 320px;
+    height: 62px;
+    padding: 20px 248px 20px 20px;
+    align-items: center;
+
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
